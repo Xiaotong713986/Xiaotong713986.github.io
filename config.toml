@@ -2,7 +2,7 @@ baseURL = "https://Xiaotong713986.github.io"
 theme = "hugo-themes-ava"
 publishDir = "docs"
 languageCode = "en"
-title = "Hugo Ava Theme"
+title = "FML-IML-Lab"
 paginate = 7
 mainSections = "post"
 
@@ -30,7 +30,7 @@ canonifyURLs = true
     meta_og_sitename = "Hugo Ava Theme"
     meta_og_type = "website"
     meta_og_url = "https://hugo-ava.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/jmau111/hugo-theme-ava/main/images/default.jpeg"
+    meta_og_image = "/images/header-bg.jpg"
     meta_og_description = "Ava is a light theme for your blog with essential features you might dig in."
     meta_twitter_card = "summary"
     meta_twitter_site = "@gohugoio"
@@ -59,20 +59,25 @@ canonifyURLs = true
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Group"
+    url = "/group/"
     weight = 2
+    
+[[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
 
 [[menu.main]]
-    name = "Archives"
-    url = "/posts/"
-    weight = 3
+    name = "Services"
+    url = "/services/"
+    weight = 4
 
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
-
+    weight = 5
+    
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
   pages = "/:filename/"

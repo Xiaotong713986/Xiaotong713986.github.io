@@ -292,14 +292,14 @@ pre {
   --bg-quotes: hsl(30, 69%, 94%);
   --bg-inputs: hsl(30, 69%, 94%);
   --bg-menu-mobile: hsl(0, 0%, 7%);
-  --bg-btn: hsl(341, 80%, 42%);
+  --bg-btn: hsl(229, 54%, 25%);
   --color: hsl(0, 0%, 22%);
   --color-header: hsl(0, 0%, 9%);
   --color-menu-mobile: hsl(0, 0%, 98%);
   --color-subheader: hsl(30, 37%, 89%);
   --color-footer: hsl(27, 12%, 71%);
   --color-btn: hsl(240, 82%, 98%);
-  --accent-color: hsl(341, 80%, 42%);
+  --accent-color: hsl(245, 73%, 35%);
   /* Background */
   /* Other */
   /* Error */
@@ -897,7 +897,7 @@ pre {
   align-items: center;
   color: var(--color-subheader);
   background-color: var(--bg-color-subheader);
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
