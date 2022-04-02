@@ -1,41 +1,78 @@
-title = "Notre-Dame de Paris"
 baseURL = "https://Xiaotong713986.github.io"
-languageCode = "en-us"
-theme = "ananke"
-resourceDir = "../resources"
+theme = "hugo-themes-ava"
 publishDir = "docs"
-
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
-enableRobotsTXT = true
+languageCode = "en"
+title = "Hugo Ava Theme"
+paginate = 7
+mainSections = "post"
 
 [languages]
   [languages.en]
-    title = "FMC-IML-Lab"
-    weight = 1
-    contentDir = "content/en"
-  [languages.fr]
-    title = "Ananke Fr"
-    weight = 2
-    contentDir = "content/fr"
+      languageName = "English"
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+enableEmoji = true
+enableRobotsTXT = true
+canonifyURLs = true
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+    
 [params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  recent_posts_number = 3
+  ga_id=""
+  mainSections = ["post"]
+  
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+  [params.meta_tags]
+    meta_description = "Ava is a light theme for your blog with essential features you might dig in."
+    meta_og_title = "Hugo Ava Theme"
+    meta_og_sitename = "Hugo Ava Theme"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-ava.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/jmau111/hugo-theme-ava/main/images/default.jpeg"
+    meta_og_description = "Ava is a light theme for your blog with essential features you might dig in."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@gohugoio"
+    meta_twitter_creator = "@gohugoio"
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        tabWidth = 4
+        noClasses = false
+        pygmentsUseClasses = true
+        pygmentsCodefences = true
+
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe= true   
+
+    [markup.blackFriday]
+        angledQuotes = true
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Archives"
+    url = "/posts/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
