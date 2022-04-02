@@ -1,5 +1,5 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://example.com"
+baseURL = "https://Xiaotong713986.github.io"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Ananke"
+    title = "FMC-IML-Lab"
     weight = 1
     contentDir = "content/en"
   [languages.fr]
