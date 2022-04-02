@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on Hugo Ava Theme</title>
-    <link>https://Xiaotong713986.github.io/</link>
-    <description>Recent content in Homepage on Hugo Ava Theme</description>
+    <title>Archives on Hugo Ava Theme</title>
+    <link>https://Xiaotong713986.github.io/posts/</link>
+    <description>Recent content in Archives on Hugo Ava Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Aug 2021 11:11:11 +0100</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contact</title>
-      <link>https://Xiaotong713986.github.io/contact/</link>
-      <pubDate>Sun, 15 Aug 2021 11:11:11 +0100</pubDate>
-      
-      <guid>https://Xiaotong713986.github.io/contact/</guid>
-      <description>Don’t fill this out if you’re human: NameEmailMessageSend </description>
-    </item>
-    
+    <lastBuildDate>Sun, 01 Aug 2021 11:11:11 +0100</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example 8</title>
       <link>https://Xiaotong713986.github.io/2021/08/08/example-8/</link>
@@ -113,23 +104,6 @@ Non, je ne regrette rien
 Ni le bien, qu&amp;rsquo;on m&amp;rsquo;a fait
 Ni le mal, tout ça m&amp;rsquo;est bien égal !
   first second third  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://Xiaotong713986.github.io/about/</link>
-      <pubDate>Sun, 01 Aug 2021 11:11:11 +0100</pubDate>
-      
-      <guid>https://Xiaotong713986.github.io/about/</guid>
-      <description> What about us?
-What about all the times you said you had the answers?
-What about us?
-What about all the broken happy ever afters?
-What about us?
-What about all the plans that ended in disaster?
-What about love? What about trust?
-What about us?
- </description>
     </item>
     
     <item>
