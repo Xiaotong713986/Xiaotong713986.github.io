@@ -1,57 +1,19 @@
 baseURL = "https://Xiaotong713986.github.io"
-theme = "hugo-themes-ava"
+theme = "hugo-research-team"
 publishDir = "docs"
 languageCode = "en"
 title = "FML-IML-Lab"
 paginate = 7
-mainSections = "post"
+# mainSections = "post"
 
-[languages]
-  [languages.en]
-      languageName = "English"
-
-enableEmoji = true
-enableRobotsTXT = true
-canonifyURLs = true
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.87.0"
-    
-[params]
-  ga_id=""
-  mainSections = ["post"]
-  
-
-  [params.meta_tags]
-    meta_description = "Ava is a light theme for your blog with essential features you might dig in."
-    meta_og_title = "Hugo Ava Theme"
-    meta_og_sitename = "Hugo Ava Theme"
-    meta_og_type = "website"
-    meta_og_url = "https://hugo-ava.netlify.app"
-    meta_og_image = "/images/header-bg.jpg"
-    meta_og_description = "Ava is a light theme for your blog with essential features you might dig in."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@gohugoio"
-    meta_twitter_creator = "@gohugoio"
-
-[markup]
-    [markup.highlight]
-        codeFences = true
-        guessSyntax = true
-        lineNos = false
-        tabWidth = 4
-        noClasses = false
-        pygmentsUseClasses = true
-        pygmentsCodefences = true
-
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe= true   
-
-    [markup.blackFriday]
-        angledQuotes = true
+# languageCode = "zh-cn"
+# title = "武斌的博客"
+# theme = "hugo-cxy-theme"
+# preserveTaxonomyNames = true
+# paginate = 10 #frontpage pagination
+# hasCJKLanguage = true
+# custom_css = ["/css/custom.css"]
+# custom_js = []
 
 [[menu.main]]
 	name = "Home"
@@ -62,7 +24,7 @@ canonifyURLs = true
     name = "Group"
     url = "/group/"
     weight = 2
-    
+
 [[menu.main]]
     name = "Publications"
     url = "/publications/"
@@ -73,11 +35,20 @@ canonifyURLs = true
     url = "/services/"
     weight = 4
 
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
-    
-[permalinks]
-  posts = "/:year/:month/:day/:slug/"
-  pages = "/:filename/"
+# [outputs]
+# home = ["HTML", "RSS"]
+
+[params]
+avatar = "/images/avatar.jpeg" 
+# hero_bg = "/images/header-bg.jpg"
+SEOTitle = "介绍"
+description = "课题组介绍 | 这里是FMC-IML 课题组的介绍。"
+# keyword = "wubin1989, wubin1989, wubin1989的网络日志, wubin1989的博客, wubin1989 Blog, 博客, 个人网站, 互联网, Web, Nodejs, Reactjs, SaaS, Golang, 微服务, Microservice"
+
+# image_404 = "/images/404-bg.jpg"
+# title_404 = "你来到了没有知识的荒原 :("
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+archive = "archives"

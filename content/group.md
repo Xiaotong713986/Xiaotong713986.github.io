@@ -1,5 +1,12 @@
 ---
-title: 'Group'
-description: This is the group page
-date: 2021-08-15T11:11:11+01:00
+title:       "How to Create Your Own Hugo Theme"
+subtitle:    ""
+description: 2020-02-24-how-to-create-your-own-hugo-theme
+date:        2020-02-24
+author:      ""
+image:       ""
+tags:        ["tag1", "tag2"]
+categories:  ["Tech"]
+archives:    "2020"
 ---
+# group

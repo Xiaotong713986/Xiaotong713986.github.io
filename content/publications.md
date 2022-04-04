@@ -1,6 +1,13 @@
 ---
-title: 'Publications'
-description: This is the about page
-date: 2021-08-01T11:11:11+01:00
+title:       "Publications"
+subtitle:    ""
+description: ""
+date:        2020-02-24
+author:      ""
+image:       ""
+tags:        ["tag1", "tag2"]
+categories:  ["Tech"]
+archives:    "2020"
 ---
-
+# Publications
+hhhhh

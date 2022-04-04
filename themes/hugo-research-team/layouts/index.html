@@ -1,0 +1,5 @@
+{{ define "main" }}
+<img src="{{.Site.Params.avatar | relURL}}" alt="" style="width:calc(20vw)">
+<!-- {{ printf "%#v" $.Type }} -->
+{{ .Content }}
+{{ end }}
