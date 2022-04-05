@@ -6,14 +6,32 @@
     <description>Recent content on FML-IML-Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 23:12:48 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Create Your Own Hugo Theme</title>
+      <title>First</title>
+      <link>https://Xiaotong713986.github.io/post/first/</link>
+      <pubDate>Mon, 04 Apr 2022 23:12:48 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/first/</guid>
+      <description>balaba</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>https://Xiaotong713986.github.io/post/second/</link>
+      <pubDate>Mon, 04 Apr 2022 22:01:35 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/second/</guid>
+      <description>hhhhhhh</description>
+    </item>
+    
+    <item>
+      <title>Group</title>
       <link>https://Xiaotong713986.github.io/group/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Xiaotong713986.github.io/group/</guid>
-      <description>group </description>
+      <description>介绍下课题组成员 </description>
     </item>
     
     <item>
@@ -22,7 +40,7 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Xiaotong713986.github.io/publications/</guid>
-      <description>Publications hhhhh</description>
+      <description>发过的文章在这里 hhhhh</description>
     </item>
     
     <item>
@@ -31,16 +49,7 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Xiaotong713986.github.io/services/</guid>
-      <description>Services </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://Xiaotong713986.github.io/post/first/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Xiaotong713986.github.io/post/first/</guid>
-      <description></description>
+      <description>这是巴拉巴拉 </description>
     </item>
     
   </channel>

@@ -5,14 +5,24 @@
     <link>https://Xiaotong713986.github.io/post/</link>
     <description>Recent content in Posts on FML-IML-Lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://Xiaotong713986.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Apr 2022 23:12:48 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>First</title>
       <link>https://Xiaotong713986.github.io/post/first/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Apr 2022 23:12:48 +0800</pubDate>
       
       <guid>https://Xiaotong713986.github.io/post/first/</guid>
-      <description></description>
+      <description>balaba</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>https://Xiaotong713986.github.io/post/second/</link>
+      <pubDate>Mon, 04 Apr 2022 22:01:35 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/second/</guid>
+      <description>hhhhhhh</description>
     </item>
     
   </channel>

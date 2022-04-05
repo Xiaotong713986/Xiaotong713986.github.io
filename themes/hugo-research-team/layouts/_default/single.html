@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="card" id="content">
                     <div class="card-content">
-                        <div class="cxy-post-content">
+                        <div class="post-content">
                             <!--
                             {{ if not (eq (.Param "showtoc") false) }}
                             <header>
@@ -16,6 +16,7 @@
                             {{ .TableOfContents}}
                             {{ end }} 
                             -->
+                            <span>{{ .Title }}</span>
                             {{ .Content }}
                         </div>
                         

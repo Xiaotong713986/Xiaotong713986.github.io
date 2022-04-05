@@ -4,7 +4,7 @@ publishDir = "docs"
 languageCode = "en"
 title = "FML-IML-Lab"
 paginate = 7
-# mainSections = "post"
+mainSections = "post"
 
 # languageCode = "zh-cn"
 # title = "武斌的博客"

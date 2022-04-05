@@ -11,7 +11,6 @@ header {
     margin-top: 0;
 }
 .site-header {
-    /* background-color:red; */
     width:calc(100vw - 28px);
 }
 .inner {
@@ -110,6 +109,14 @@ header {
     padding-right:6px;
     padding-top: 6px;
     /* border:solid 1px black; */
+}
+.post-content {
+    text-align: center;
+    background-color: yellowgreen;
+}
+.post-content span {
+    color:black;
+    display: inline-block;
 }
 
 /* footer */
