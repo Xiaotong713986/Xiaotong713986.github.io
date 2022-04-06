@@ -1,0 +1,28 @@
+/* header */
+header {
+    margin-top: 0;
+}
+.site-header {
+    width:calc(100vw - 28px);
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: var(--gap);
+    width: calc(99vw);
+  }
+.site-title {
+    margin: 0;
+    padding: 0;
+}
+.site-title a {
+    color: var(--color-header);
+    display: block;
+    background-image: none;
+    line-height: 1.5rem;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5rem;
+}

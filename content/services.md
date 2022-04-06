@@ -10,4 +10,6 @@ categories:  ["Tech"]
 archives:    "2020"
 ---
 
-# 这是巴拉巴拉
+Journal editorial board:
+- The Visual Computer (IF:1.558), Associate Editor: 2018-present
+- IEEE Computer Graphics and Applications (IF:1.725), Associate Editor: 2020-present

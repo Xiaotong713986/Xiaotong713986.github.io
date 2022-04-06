@@ -1,0 +1,19 @@
+/* content */
+#content {
+    min-height: calc(82vh - 6px);
+    background-color: burlywood;
+    width: calc(100vw - 50px);
+    padding-left: 6px;
+    padding-right:6px;
+    padding-top: 6px;
+    /* border:solid 1px black; */
+}
+.post-content {
+    // background-color: red;
+}
+.post-content span {
+    color:black;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 900;
+}

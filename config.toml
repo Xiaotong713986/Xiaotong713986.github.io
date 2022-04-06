@@ -5,6 +5,7 @@ languageCode = "en"
 title = "FML-IML-Lab"
 paginate = 7
 mainSections = "post"
+personSections = "person"
 
 # languageCode = "zh-cn"
 # title = "武斌的博客"

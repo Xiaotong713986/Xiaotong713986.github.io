@@ -4,10 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keyword"  content="{{ .Site.Params.keyword }}">
-    <link rel="shortcut icon" href="{{ "/images/favicon.jpg" | relURL }}">
+    <link rel="shortcut icon" href="{{ "images/favicon.jpg" | relURL }}">
 
     <title>{{ if .Title }}{{ .Title }}-{{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
-    <!--  Custom CSS  -->
-    <link rel="stylesheet" href="{{ "/css/_main.css" | relURL }}">
-    <script src="{{ "/js/all.js" | relURL }}"></script>
+    {{ $styles := resources.Get "styles/main.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink}}">
+    <script src="{{ "js/all.js" | relURL }}"></script>
 </head>
