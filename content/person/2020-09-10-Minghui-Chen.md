@@ -1,7 +1,7 @@
 ---
-PersonName: "Kongweifeng"
+PersonName: "Minghui Chen"
 EnrollDate: 2020-09-10
 Description: "Deep Learning"
-PersonAvatar: "/person/Kongweifeng.jpg"
+PersonAvatar: "/person/MinghuiChen.jpg"
 StudentType: "master"
 ---

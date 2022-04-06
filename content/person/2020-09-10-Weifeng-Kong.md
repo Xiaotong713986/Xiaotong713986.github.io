@@ -1,7 +1,7 @@
 ---
-PersonName: "Chenminghui"
+PersonName: "Weifeng Kong"
 EnrollDate: 2020-09-10
 Description: "Deep Learning"
-PersonAvatar: "/person/Chenminghui.jpg"
+PersonAvatar: "/person/WeifengKong.jpg"
 StudentType: "master"
 ---

@@ -1,7 +1,7 @@
 ---
-PersonName: "Zhengsilin"
+PersonName: "Silin Zheng"
 EnrollDate: 2021-09-10
 Description: "Deep Learning"
-PersonAvatar: "/person/Zhengsilin.jpg"
+PersonAvatar: "/person/SilinZheng.jpg"
 StudentType: "master"
 ---
