@@ -10,7 +10,7 @@
 		"themes/hugo-research-team/assets/styles/_content.scss",
 		"themes/hugo-research-team/assets/styles/_footer.scss",
 		"themes/hugo-research-team/assets/styles/_variables.scss",
-		"themes/hugo-research-team/assets/styles/person.scss"
+		"themes/hugo-research-team/assets/styles/_person.scss"
 	],
 	"sourcesContent": [
 		"@import \"header\";\r\n@import \"navbar\";\r\n@import \"base\";\r\n@import \"content\";\r\n@import \"footer\";\r\n@import \"variables\";\r\n@import \"person\";",
