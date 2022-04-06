@@ -1,8 +1,8 @@
 /* content */
 #content {
-    min-height: calc(82vh - 6px);
-    background-color: burlywood;
-    width: calc(100vw - 50px);
+    min-height: var(--content-min-height);
+    background-color: var(--content-bgColor);
+    width: var(--content-width);
     padding-left: 6px;
     padding-right:6px;
     padding-top: 6px;

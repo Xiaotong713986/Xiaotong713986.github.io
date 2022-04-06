@@ -42,7 +42,7 @@ header {
   margin-left: 2rem; }
 
 .nav-menu .active {
-  color: blueviolet; }
+  color: var(--active-color); }
 
 .nav-menu li a {
   border: 0;
@@ -92,17 +92,14 @@ header {
 } */
 /* basic */
 body {
-  background-color: #c7c0c0;
-  padding-top: 0;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px; }
+  background-color: var(--background-color);
+  padding: 0; }
 
 /* content */
 #content {
-  min-height: calc(82vh - 6px);
-  background-color: burlywood;
-  width: calc(100vw - 50px);
+  min-height: var(--content-min-height);
+  background-color: var(--content-bgColor);
+  width: var(--content-width);
   padding-left: 6px;
   padding-right: 6px;
   padding-top: 6px;
@@ -129,5 +126,12 @@ body {
 
 .copyright {
   margin: 0; }
+
+:root {
+  --background-color: rgb(199, 192, 192);
+  --content-bgColor: white;
+  --content-min-height: calc(82vh - 6px);
+  --content-width: calc(100vw - 30px);
+  --active-color: blueviolet; }
 
 /*# sourceMappingURL=style.css.map */
