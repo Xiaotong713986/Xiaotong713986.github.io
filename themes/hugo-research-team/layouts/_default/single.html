@@ -1,20 +1,45 @@
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div class="card" id="content">
-            <div class="card-content">
-                <div class="post-content">
-                    {{ .Content }}
-                    {{ range .Pages.ByDate }}
-                    ggg
-                    {{ printf "%#v" $.Params.PersonName }}
-                    {{ partial "person.html" .Params }}
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
-</html>
+{{ define "main" }}
+<div class="card-content">
+    <div class="post-content">
+        {{ .Content }}
+        {{if eq .Params.Title "Group"}}
+            <h1>Teacher</h1>
+            {{ range .Site.RegularPages }}
+                {{if eq .Params.StudentType "teacher"}}
+                    {{ partial "person.html" .Params}}
+                {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <h1>PhD</h1>
+            {{ range .Site.RegularPages }}
+                {{if eq .Params.StudentType "phd"}}
+                    {{ partial "person.html" .Params}}
+                {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <h1>Master</h1>
+            {{ range .Site.RegularPages }}
+                {{if eq .Params.StudentType "master"}}
+                    {{ partial "person.html" .Params}}
+                {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <h1>Undergraduate Student</h1>
+            {{ range .Site.RegularPages }}
+                {{if eq .Params.StudentType "undergraduate"}}
+                    {{ partial "person.html" .Params}}
+                {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <h1>Alumni</h1>
+            {{ range .Site.RegularPages }}
+                {{if eq .Params.StudentType "alumni"}}
+                    {{ partial "person.html" .Params}}
+                {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+        {{end}}
+        
+    </div>
+</div>
+{{ end }}

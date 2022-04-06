@@ -1,8 +1,10 @@
 <div class="person-card">
-    <img class="person-avatar" src="{{.PersonAvatar}}" alt="">
+    <div class="person-img">
+        <img class="person-avatar" src="{{.PersonAvatar}}" alt="">
+    </div>
     <div class="card-content">
         <h3>{{.PersonName}}</h3>
-        <div class="enroll-time"><strong>${{ .EnrollDate }}</strong></div>
+        <div class="enroll-time">Start in <strong>{{ .EnrollDate }}</strong></div>
         <p>{{ .Description }}</p>
     </div>
 </div>

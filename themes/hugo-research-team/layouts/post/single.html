@@ -7,7 +7,7 @@
             <div class="card-content">
                 <div class="post-content">
                     <h1>{{ .Title }}</h1>
-                    <h2>{{ .Date.Format "Sun, Feb 11, 2018" }}</h2>
+                    {{ .Date.Format "Sun, Feb 11, 2018" }}
                     {{ .Content }}
                 </div>
             </div>

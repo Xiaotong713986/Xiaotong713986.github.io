@@ -1,5 +1,11 @@
 {{ define "main" }}
-    {{ range first 3 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-    <h1><a href="{{ .Permalink }}">{{.Title}}</a></h1>
+    {{ .Content }}
+    {{ range .Site.Pages }}
+        {{ if and (eq .Type "post") (ne .Title "Posts") }}
+            <div class="post-div">
+                <h1><a href="{{ .Permalink }}" style="text-decoration:none !important">{{.Title}}</a></h1>
+                {{ .Date }}
+            </div>
+        {{ end }}
     {{end}}
 {{ end }}

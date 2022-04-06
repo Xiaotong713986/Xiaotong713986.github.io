@@ -1,19 +1,24 @@
 /* content */
 #content {
     min-height: var(--content-min-height);
-    background-color: var(--content-bgColor);
+    // background-color: var(--content-bgColor);
+    background-color: white;
     width: var(--content-width);
-    padding-left: 6px;
-    padding-right:6px;
-    padding-top: 6px;
-    /* border:solid 1px black; */
+    padding: 10px;
+    margin: auto;
 }
 .post-content {
-    // background-color: red;
+    // background-color: pink;
+    margin: auto;
+    width:calc(100vw - 80px);
 }
 .post-content span {
     color:black;
     display: inline-block;
     font-size: 2rem;
     font-weight: 900;
+}
+.post-div {
+    border: 2px solid var(--background-color);
+    padding:2px;
 }

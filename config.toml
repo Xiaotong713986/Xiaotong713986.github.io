@@ -6,7 +6,7 @@ title = "FML-IML-Lab"
 paginate = 7
 mainSections = "post"
 personSections = "person"
-
+Teacher = "teacher"
 # languageCode = "zh-cn"
 # title = "武斌的博客"
 # theme = "hugo-cxy-theme"

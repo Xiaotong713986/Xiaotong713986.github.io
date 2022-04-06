@@ -1,0 +1,20 @@
+.person-card {
+    background-color: var(--background-color);
+    text-align: center;
+    width:calc(25vw - 37px);
+    height:calc(60vh);
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+    padding: 6px;
+    .person-img {
+        height:55%;
+        img {
+            height:100%;
+            max-width:80%;
+        }
+    }
+    .card-content {
+        height: 30%;
+    }
+}
