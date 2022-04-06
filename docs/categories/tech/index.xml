@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on FML-IML-Lab</title>
+    <link>https://Xiaotong713986.github.io/categories/tech/</link>
+    <description>Recent content in Tech on FML-IML-Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Group</title>
+      <link>https://Xiaotong713986.github.io/group/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/group/</guid>
+      <description>Here is our persons! </description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://Xiaotong713986.github.io/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/</guid>
+      <description>This is Home page content! </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://Xiaotong713986.github.io/publications/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/publications/</guid>
+      <description>[1] Qiudan Zhang, Xu Wang*, Shiqi Wang, Zhenhao Sun, Sam Kwong, Jianmin Jiang, Learning to Explore Saliency for Stereoscopic Videos via Component-Based Interaction, IEEE Transactions on Image Processing (10.1109/TIP.2020.**)
+[2] Xu Wang, Zhenhao Sun, Qiudan Zhang, Yuming Fang, Lin Ma, Shiqi Wang, Sam Kwong, Multi-Exposure Decomposition-Fusion Model for High Dynamic Range Image Saliency Detection, IEEE Transactions on Circuits and Systems for Video Technology (10.1109/TCSVT.2020.**)
+[3] Xuanzheng Wen, Xu Wang*, Junhui Hou, Lin Ma, Yu Zhou, Jianmin Jiang, Lossy Geometry Compression of 3D Point Cloud Data via An Adaptive Octree-Guided Network, IEEE International Conference on Multimedia and Expo (ICME), London, UK, Jul.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://Xiaotong713986.github.io/services/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/services/</guid>
+      <description>Journal editorial board:
+ The Visual Computer (IF:1.558), Associate Editor: 2018-present IEEE Computer Graphics and Applications (IF:1.725), Associate Editor: 2020-present  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on FML-IML-Lab</title>
+    <link>https://Xiaotong713986.github.io/post/</link>
+    <description>Recent content in Posts on FML-IML-Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Apr 2022 23:24:31 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third</title>
+      <link>https://Xiaotong713986.github.io/post/third/</link>
+      <pubDate>Wed, 06 Apr 2022 23:24:31 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/third/</guid>
+      <description>The third new</description>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>https://Xiaotong713986.github.io/post/second/</link>
+      <pubDate>Wed, 06 Apr 2022 23:24:21 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/second/</guid>
+      <description>The second new</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://Xiaotong713986.github.io/post/first/</link>
+      <pubDate>Wed, 06 Apr 2022 23:22:08 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/first/</guid>
+      <description>The first new</description>
+    </item>
+    
+  </channel>
+</rss>
