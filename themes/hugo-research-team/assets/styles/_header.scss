@@ -1,28 +1,99 @@
 /* header */
-header {
-    margin-top: 0;
-}
-.site-header {
-    width:calc(100vw - 28px);
-}
-.inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    gap: var(--gap);
-    width: calc(99vw);
+// header {
+//     margin-top: 0;
+// }
+// .site-header {
+//     width:calc(100vw - 28px);
+// }
+// .inner {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin: 0 auto;
+//     gap: var(--gap);
+//     width: calc(99vw);
+//   }
+// .site-title {
+//     margin-left: 2rem;
+//     padding: 1rem;
+// }
+// .site-title a {
+//     color: var(--color-header);
+//     display: block;
+//     background-image: none;
+//     line-height: 1.5rem;
+//     text-decoration: none;
+//     font-weight: 900;
+//     font-size: 1.5rem;
+// }
+.nav-btn {
+    background: url("/svg/menu.svg") no-repeat center center;
+    height: 36px;
+    width: 36px;
+    border: 0;
+    cursor: pointer;
   }
-.site-title {
-    margin-left: 2rem;
-    padding: 0;
-}
-.site-title a {
+.site-header {
+    background-color: var(--header-bg-color);
     color: var(--color-header);
-    display: block;
-    background-image: none;
-    line-height: 1.5rem;
-    text-decoration: none;
-    font-weight: 900;
+    padding: calc(var(--gap) / 2) var(--gap);
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        gap: var(--gap);
+        max-width: var(--header-width);
+    }
+
+    .site-title {
+        margin: 0;
+        padding: 0;
+
+        a {
+            color: var(--color-header);
+            display: block;
+            background-image: none;
+            line-height: 1.55;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 2rem;
+            width: 300px;
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
+}
+
+.site-nav {
+    padding: 0 1rem;
+    display: flex;
     font-size: 1.5rem;
+
+    .site-menu {
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: stretch;
+
+        li+li {
+            margin-left: 2rem;
+        }
+
+        a {
+            border: 0;
+            text-decoration: none;
+            color: var(--color-header);
+            text-transform: uppercase;
+            font-weight: 900;
+
+            &[aria-current="page"],
+            &:focus,
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
 }

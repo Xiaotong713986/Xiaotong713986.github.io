@@ -1,13 +1,15 @@
 <!-- header.html -->
 <header class="site-header">
     <div class="inner">
-        <div class="site-title">
+        <div class="site-title slide-horizontal-invert">
             {{ if ( ne .Site.Title "" ) }}
-            <a class="navbar-item" href="{{ .Site.BaseURL | relLangURL }}"> {{ .Site.Title }} </a>
+            <a href="{{ .Site.BaseURL | relLangURL }}"> {{ .Site.Title }} </a>
             {{ end }}
         </div>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <ul class="nav-menu">
+        <input type="checkbox" id="check-menu" class="check-menu" hidden="">
+        <label for="check-menu" class="nav-btn hide-desktop" aria-label="Open/close menu"><span></span></label>
+        <nav class="site-nav hide-mobile slide-horizontal" role="navigation" aria-label="main navigation">
+            <ul class="site-menu">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 {{ $menu_item_url := .URL | relLangURL }}
