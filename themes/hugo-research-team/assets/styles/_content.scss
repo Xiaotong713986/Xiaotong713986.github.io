@@ -19,22 +19,15 @@
     width:calc(100vw - 100px);
 }
 .title-img {
-    overflow: hidden;
-    position: relative;
-    height:calc(50vh);
-    img {
-      width: 100%;
-      max-height: calc(60vh);
-      position: absolute;
-      z-index: 1;
-    }
-    .title-div {
-      text-align: center;
-      width: 400px;
-      margin-top: 10px;
-    }
+    width: 100%;
+    max-height: calc(60vh);
+    z-index: 1;
   }
-  
+  .title-div {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
   .no-border {
     border: none;
   }

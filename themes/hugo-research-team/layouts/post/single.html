@@ -6,13 +6,11 @@
         <div class="card" id="content">
             <div class="card-content">
                 <div class="post-content">
-                    <div class="title-img">
-                        {{ if .Params.featureImg }}
-                            <img src="/post/{{ .Params.featureImg }}" alt="post image">
-                        {{ else }}
-                            <img src="/post/news-example.jpg" alt="post image">
-                        {{ end }}
-                    </div>
+                    {{ if .Params.featureImg }}
+                        <img class="title-img" src="/post/{{ .Params.featureImg }}" alt="post image">
+                    {{ else }}
+                        <img class="title-img" src="/post/news-example.jpg" alt="post image">
+                    {{ end }}
                     <div class="title-div">
                         <span class="title-span no-border">{{ .Title }}</span>
                         <span class="sub-title-span ">{{ .Date | time.Format ":date_full" }}</span>
