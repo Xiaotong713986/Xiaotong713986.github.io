@@ -1,7 +1,8 @@
 ---
 PersonName: "Zhiye Tang"
 EnrollDate: 2018-09-10
-Description: "Deep Learning"
+Description: ""
+ResearchDir: "Deep Learning"
 PersonAvatar: "/person/ZhiyeTang.jpg"
 StudentType: "undergraduate"
 ---

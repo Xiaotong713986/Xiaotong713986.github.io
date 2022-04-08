@@ -9,4 +9,3 @@ tags:        ["tag1", "tag2"]
 categories:  ["Tech"]
 archives:    "2020"
 ---
-# Here is our persons!

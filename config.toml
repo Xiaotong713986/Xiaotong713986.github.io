@@ -2,7 +2,7 @@ baseURL = "https://Xiaotong713986.github.io"
 theme = "hugo-research-team"
 publishDir = "docs"
 languageCode = "en"
-title = "FML-IML-Lab"
+title = "FMC-IML-Lab"
 paginate = 7
 mainSections = "post"
 personSections = "person"
@@ -42,7 +42,7 @@ Teacher = "teacher"
 [params]
 avatar = "/images/avatar.jpeg" 
 # hero_bg = "/images/header-bg.jpg"
-SEOTitle = "介绍"
+SEOTitle = "FMC"
 description = "课题组介绍 | 这里是FMC-IML 课题组的介绍。"
 # keyword = "wubin1989, wubin1989, wubin1989的网络日志, wubin1989的博客, wubin1989 Blog, 博客, 个人网站, 互联网, Web, Nodejs, Reactjs, SaaS, Golang, 微服务, Microservice"
 
