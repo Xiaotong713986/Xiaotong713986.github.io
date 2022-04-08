@@ -6,3 +6,4 @@ Tags: []
 Categories: []
 featureImg: "news-example.jpg"
 ---
+This is my first blog.
