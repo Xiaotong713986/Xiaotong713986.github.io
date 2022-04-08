@@ -96,7 +96,8 @@ a:focus {
   margin: auto; }
 
 .home-img {
-  height: 60vh;
+  max-height: calc(60vh);
+  max-width: calc(50vw);
   padding: 5px; }
 
 .home-content {
