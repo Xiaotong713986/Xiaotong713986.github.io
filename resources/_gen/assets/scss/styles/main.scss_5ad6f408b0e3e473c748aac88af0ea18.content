@@ -84,8 +84,9 @@ a:focus {
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
-  border-bottom: 1px solid var(--font-color);
-  margin-top: 10px; }
+  border-bottom: 1px solid var(--header-bg-color);
+  margin-top: 10px;
+  padding: 5px; }
 
 /* content */
 #content {
@@ -190,7 +191,6 @@ a:focus {
   --content-padding: 20px; }
 
 .person-card {
-  background-color: var(--person-card-color);
   text-align: center;
   width: 200px;
   height: 400px;
