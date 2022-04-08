@@ -1,11 +1,31 @@
 {{ define "main" }}
-    {{ .Content }}
-    {{ range .Site.Pages }}
+    <!-- <div class="home-img">
+        <img src="{{ .Site.Params.avatar }}" alt="">
+    </div>
+    <div class="home-content">
+        {{ .Content }}
+    </div> -->
+    <img src="{{ .Site.Params.avatar }}" alt="" align="left" class="home-img">
+    <p class="home-content">{{ .Content }}</p>
+    <span class="title-span">Recent News</span>
+    {{ range first 5 .Site.Pages }}
         {{ if and (eq .Type "post") (ne .Title "Posts") }}
             <div class="post-div">
-                <h1><a href="{{ .Permalink }}" style="text-decoration:none !important">{{.Title}}</a></h1>
-                {{ .Date }}
+                <div class="news-descrp">
+                    <p><a href="{{ .Permalink }}" style="text-decoration:none !important">{{.Title}}</a></p>
+                    <p>{{ .Params.Description }}</p>
+                    <span>Last updated on {{.Date | time.Format ":date_long" }}</span>
+                </div>
+                <div class="news-img">
+                    {{ if .Params.featureImg }}
+                    <img src="/post/{{.Params.featureImg}}" alt="">
+                    {{ else }}
+                    <img src="/news-example.jpg" alt="">
+                    {{ end }}
+                </div>
+                <div class="clear-float"></div>
             </div>
         {{ end }}
     {{end}}
+    <div class="clear-float"></div>
 {{ end }}

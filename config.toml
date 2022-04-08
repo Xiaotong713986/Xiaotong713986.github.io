@@ -40,7 +40,7 @@ Teacher = "teacher"
 # home = ["HTML", "RSS"]
 
 [params]
-avatar = "/images/avatar.jpeg" 
+avatar = "/person/XuWang.jpg" 
 # hero_bg = "/images/header-bg.jpg"
 SEOTitle = "FMC"
 description = "课题组介绍 | 这里是FMC-IML 课题组的介绍。"

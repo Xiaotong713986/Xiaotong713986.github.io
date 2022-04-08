@@ -4,5 +4,5 @@ date: {{ .Date }}
 Description: ""
 Tags: []
 Categories: []
-
+featureImg: "news-example.jpg"
 ---
