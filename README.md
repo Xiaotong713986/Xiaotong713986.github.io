@@ -14,9 +14,9 @@
 主要数据路径：/content/person/
 
 新增人员命令：
->hugo new person/2019-09-10-HongXiao.md//(入学时间-小红）
+>hugo new person/2019-09-10-Tiantian-Zhang.md//(入学时间-张天天）
 
-并在路径/static/person/下新增头像图片（HongXiao.jpg）
+并在路径/static/person/下新增头像图片（TiantianZhang.jpg）
 
 修改或删除人员数据则在主要数据路径下操作。
 
