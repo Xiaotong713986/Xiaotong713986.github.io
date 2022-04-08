@@ -12,11 +12,10 @@
                         {{ else }}
                             <img src="/post/news-example.jpg" alt="post image">
                         {{ end }}
-                        <div class="title-div">
-                            <span class="title-span no-border">{{ .Title }}</span>
-                            <p style="font-weight:800">{{ .Date | time.Format ":date_full" }}</p>
-                        </div>
-                        
+                    </div>
+                    <div class="title-div">
+                        <span class="title-span no-border">{{ .Title }}</span>
+                        <span class="sub-title-span ">{{ .Date | time.Format ":date_full" }}</span>
                     </div>
                     {{ .Content }}
                 </div>

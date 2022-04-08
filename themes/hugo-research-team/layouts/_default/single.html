@@ -1,45 +1,45 @@
 {{ define "main" }}
 <div class="card-content">
-    <div class="post-content">
-        {{ .Content }}
-        {{if eq .Params.Title "Group"}}
+    {{if eq .Params.Title "Group"}}
         <span class="title-span">Teacher</span>
-            {{ range .Site.RegularPages }}
-                {{if eq .Params.StudentType "teacher"}}
-                    {{ partial "person.html" .Params}}
-                {{end}}
-            {{ end }}
-            <div class="clear-float"></div>
-            <span class="title-span">PhD</span>
-            {{ range .Site.RegularPages }}
-                {{if eq .Params.StudentType "phd"}}
-                    {{ partial "person.html" .Params}}
-                {{end}}
-            {{ end }}
-            <div class="clear-float"></div>
-            <span class="title-span">Master</span>
-            {{ range .Site.RegularPages }}
-                {{if eq .Params.StudentType "master"}}
-                    {{ partial "person.html" .Params}}
-                {{end}}
-            {{ end }}
-            <div class="clear-float"></div>
-            <span class="title-span">Undergraduate Student</span>
-            {{ range .Site.RegularPages }}
-                {{if eq .Params.StudentType "undergraduate"}}
-                    {{ partial "person.html" .Params}}
-                {{end}}
-            {{ end }}
-            <div class="clear-float"></div>
-            <span class="title-span">Alumni</span>
-            {{ range .Site.RegularPages }}
-                {{if eq .Params.StudentType "alumni"}}
-                    {{ partial "person.html" .Params}}
-                {{end}}
-            {{ end }}
-            <div class="clear-float"></div>
-        {{end}}
-        
-    </div>
+        {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "teacher"}}
+                {{ partial "person.html" .Params}}
+            {{end}}
+        {{ end }}
+        <div class="clear-float"></div>
+        <span class="title-span">PhD</span>
+        {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "phd"}}
+                {{ partial "person.html" .Params}}
+            {{end}}
+        {{ end }}
+        <div class="clear-float"></div>
+        <span class="title-span">Master</span>
+        {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "master"}}
+                {{ partial "person.html" .Params}}
+            {{end}}
+        {{ end }}
+        <div class="clear-float"></div>
+        <span class="title-span">Undergraduate Student</span>
+        {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "undergraduate"}}
+                {{ partial "person.html" .Params}}
+            {{end}}
+        {{ end }}
+        <div class="clear-float"></div>
+        <span class="title-span">Alumni</span>
+        {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "alumni"}}
+                {{ partial "person.html" .Params}}
+            {{end}}
+        {{ end }}
+        <div class="clear-float"></div>
+    {{else}}
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    {{end}}
 </div>
 {{ end }}

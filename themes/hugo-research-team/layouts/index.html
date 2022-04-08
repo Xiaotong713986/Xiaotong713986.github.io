@@ -12,7 +12,7 @@
         {{ if and (eq .Type "post") (ne .Title "Posts") }}
             <div class="post-div">
                 <div class="news-descrp">
-                    <p><a href="{{ .Permalink }}" style="text-decoration:none !important">{{.Title}}</a></p>
+                    <p><a href="{{ .Permalink }}">{{.Title}}</a></p>
                     <p>{{ .Params.Description }}</p>
                     <span>Last updated on {{.Date | time.Format ":date_long" }}</span>
                 </div>
