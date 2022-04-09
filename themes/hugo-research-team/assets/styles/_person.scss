@@ -1,20 +1,29 @@
 .person-card {
     text-align: center;
-    width:200px;
-    height:400px;
+    width:180px;
+    height:300px;
     float: left;
-    margin-left: 1rem;
+    margin-left: .5rem;
     margin-top: 1rem;
     padding: 6px;
     .person-img {
-        height:55%;
+        height:150px;
         img {
-            max-height:100%;
-            max-width:80%;
+            height:150px;
+            width:150px;
         }
     }
     .card-content {
         height: 30%;
+        div {
+            margin-top: 9px;
+            font-size: .8rem;
+        }
+        .person-name {
+            font-size: 1rem;
+            font-weight: 900;
+            margin-top: 12px;
+        }
     }
 }
 .person-card:hover {

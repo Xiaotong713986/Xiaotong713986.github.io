@@ -3,9 +3,10 @@
         <img class="person-avatar" src="{{.PersonAvatar}}" alt="">
     </div>
     <div class="card-content">
-        <h3>{{.PersonName}}</h3>
-        <div class="enroll-time">Start in <strong>{{ .EnrollDate }}</strong></div>
-        <p style="color:#585858">{{ .Description }}</p>
-        <p>{{ .ResearchDir }}</p>
+        <div class="person-name">{{.PersonName}}</div>
+        <div>{{ .ResearchDir }}</div>
+        <div style="color:#585858">Started in {{ .EnrollDate }}</div>
+        <div style="color:#585047;font-weight: 560;">{{ .Description }}</div>
+        
     </div>
 </div>

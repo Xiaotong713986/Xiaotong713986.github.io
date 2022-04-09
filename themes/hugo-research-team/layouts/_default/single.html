@@ -1,35 +1,22 @@
 {{ define "main" }}
 <div class="card-content">
     {{if eq .Params.Title "Group"}}
-        <span class="title-span">Teacher</span>
-        {{ range .Site.RegularPages }}
-            {{if eq .Params.StudentType "teacher"}}
-                {{ partial "person.html" .Params}}
-            {{end}}
-        {{ end }}
         <div class="clear-float"></div>
-        <span class="title-span">PhD</span>
-        {{ range .Site.RegularPages }}
-            {{if eq .Params.StudentType "phd"}}
-                {{ partial "person.html" .Params}}
-            {{end}}
-        {{ end }}
-        <div class="clear-float"></div>
-        <span class="title-span">Master</span>
+        <span class="title-span-left no-border">Master students</span>
         {{ range .Site.RegularPages }}
             {{if eq .Params.StudentType "master"}}
                 {{ partial "person.html" .Params}}
             {{end}}
         {{ end }}
         <div class="clear-float"></div>
-        <span class="title-span">Undergraduate Student</span>
+        <span class="title-span-left no-border">Undergraduate students</span>
         {{ range .Site.RegularPages }}
             {{if eq .Params.StudentType "undergraduate"}}
                 {{ partial "person.html" .Params}}
             {{end}}
         {{ end }}
         <div class="clear-float"></div>
-        <span class="title-span">Alumni</span>
+        <span class="title-span-left no-border">Alumni</span>
         {{ range .Site.RegularPages }}
             {{if eq .Params.StudentType "alumni"}}
                 {{ partial "person.html" .Params}}

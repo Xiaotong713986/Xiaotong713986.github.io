@@ -7,21 +7,24 @@
     </div> -->
     <img src="{{ .Site.Params.avatar }}" alt="" align="left" class="home-img">
     <p class="home-content">{{ .Content }}</p>
-    <span class="title-span">Recent News</span>
-    {{ range first 5 .Site.Pages }}
+    <span class="title-span-left">Recent News</span>
+    {{ range .Site.Pages.ByDate.Reverse }}
         {{ if and (eq .Type "post") (ne .Title "Posts") }}
             <div class="post-div">
+                <label for=""></label>
                 <div class="news-descrp">
-                    <p><a href="{{ .Permalink }}">{{.Title}}</a></p>
-                    <p>{{ .Params.Description }}</p>
-                    <span>Last updated on {{.Date | time.Format ":date_long" }}</span>
+                    <!-- <p><a href="{{ .Permalink }}">{{.Title}}</a></p> -->
+                    {{ .Content }}
                 </div>
-                <div class="news-img">
+                <!-- <div class="news-img">
                     {{ if .Params.featureImg }}
                     <img src="/post/{{.Params.featureImg}}" alt="">
                     {{ else }}
                     <img src="/news-example.jpg" alt="">
                     {{ end }}
+                </div> -->
+                <div class="news-date">
+                    {{.Params.Newdate }}
                 </div>
                 <div class="clear-float"></div>
             </div>

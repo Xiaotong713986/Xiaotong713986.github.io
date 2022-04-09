@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Xiaotong713986.github.io/post/my-bolg/</loc>
-    <lastmod>2022-04-08T17:45:20+08:00</lastmod>
-  </url><url>
     <loc>https://Xiaotong713986.github.io/post/</loc>
-    <lastmod>2022-04-08T17:45:20+08:00</lastmod>
+    <lastmod>2022-04-09T18:12:35+08:00</lastmod>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/post/first/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <loc>https://Xiaotong713986.github.io/post/2022-03-weng-jian/</loc>
+    <lastmod>2022-04-09T18:12:35+08:00</lastmod>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/post/second/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <loc>https://Xiaotong713986.github.io/post/2022-02-li-jinlong/</loc>
+    <lastmod>2022-04-09T18:10:43+08:00</lastmod>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/post/third/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+    <loc>https://Xiaotong713986.github.io/post/2020-03-zhang-qiudan/</loc>
+    <lastmod>2022-04-09T18:09:49+08:00</lastmod>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/post/2020-03-wen-xuanzheng/</loc>
+    <lastmod>2022-04-09T18:08:58+08:00</lastmod>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/post/2020-03-sun-zhenhao/</loc>
+    <lastmod>2022-04-09T18:08:08+08:00</lastmod>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/post/2019-09-he-jingming/</loc>
+    <lastmod>2022-04-09T18:06:53+08:00</lastmod>
   </url><url>
     <loc>https://Xiaotong713986.github.io/archives/2020/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
@@ -50,31 +56,47 @@
     <loc>https://Xiaotong713986.github.io/categories/tech/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2015-09-10-qiudan-zhang/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2015-qiudan-zhang/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2016-09-10-xu-wang/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2016-xiaohua-liu/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2016-09-10-zhenhao-sun/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2016-yali-xue/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2017-09-10-pingping-zhang/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2016-zhenhao-sun/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2017-09-10-zihao-chen/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2017-pingping-zhang/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2018-09-10-zhiye-tang/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2017-zihao-chen/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2019-09-10-jingming-he/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2018-weifeng-lu/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2019-09-10-jinlong-li/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2018-xuanzheng-wen/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2019-09-10-xiaotong-xiao/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2018-zhiye-tang/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2020-09-10-jian-weng/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2019-jingming-he/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2020-09-10-minghui-chen/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2019-jinlong-li/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2020-09-10-weifeng-kong/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2019-xiaotong-xiao/</loc>
   </url><url>
-    <loc>https://Xiaotong713986.github.io/person/2021-09-10-silin-zheng/</loc>
+    <loc>https://Xiaotong713986.github.io/person/2020-jian-weng/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2020-minghui-chen/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2020-weifeng-kong/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-haohong-liao/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-jiashu-liu/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-jie-zhang/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-kai-wang/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-silin-zheng/</loc>
+  </url><url>
+    <loc>https://Xiaotong713986.github.io/person/2021-yelang-gao/</loc>
   </url><url>
     <loc>https://Xiaotong713986.github.io/person/</loc>
   </url>

@@ -10,11 +10,10 @@ body {
 }
 a,
 a:visited {
-  color: inherit;
+  color: var(--accent-color);
   text-decoration: underline;
   -webkit-text-decoration-skip: ink;
   text-decoration-skip-ink: auto;
-  color: var(--accent-color);
 }
 a:hover,
 a:focus {
@@ -29,6 +28,17 @@ a:focus {
   font-weight: 900;
   font-size: 2rem;
   border-bottom: 1px solid var(--header-bg-color);
+  margin-top: 10px;
+  padding: 5px;
+}
+.title-span-left {
+  display:inline-block;
+  width:100%;
+  text-align: left;
+  color:var(--accent-color);
+  font-weight: 900;
+  font-size: 2rem;
+  border-bottom: 2px solid var(--header-bg-color);
   margin-top: 10px;
   padding: 5px;
 }

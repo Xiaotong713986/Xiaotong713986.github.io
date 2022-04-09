@@ -8,39 +8,57 @@
     <language>en</language>
     <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Bolg</title>
-      <link>https://Xiaotong713986.github.io/post/my-bolg/</link>
-      <pubDate>Fri, 08 Apr 2022 17:45:20 +0800</pubDate>
+      <title>Weng Jian</title>
+      <link>https://Xiaotong713986.github.io/post/2022-03-weng-jian/</link>
+      <pubDate>Sat, 09 Apr 2022 18:12:35 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/my-bolg/</guid>
-      <description>This is my first blog.</description>
+      <guid>https://Xiaotong713986.github.io/post/2022-03-weng-jian/</guid>
+      <description> One paper was accepted to CVPR2022: ******. Congratulations to Mr. Weng Jian!  </description>
     </item>
     
     <item>
-      <title>First</title>
-      <link>https://Xiaotong713986.github.io/post/first/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Li Jinlong</title>
+      <link>https://Xiaotong713986.github.io/post/2022-02-li-jinlong/</link>
+      <pubDate>Sat, 09 Apr 2022 18:10:43 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/first/</guid>
-      <description>The first new</description>
+      <guid>https://Xiaotong713986.github.io/post/2022-02-li-jinlong/</guid>
+      <description> One paper was accepted to TMM2022: Weakly Supervised Semantic Segmentation via Progressive Patch Learning. Congratulations to Mr. Li Jinlong!  </description>
     </item>
     
     <item>
-      <title>Second</title>
-      <link>https://Xiaotong713986.github.io/post/second/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Zhang Qiudan</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-zhang-qiudan/</link>
+      <pubDate>Sat, 09 Apr 2022 18:09:49 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/second/</guid>
-      <description>The second new</description>
+      <guid>https://Xiaotong713986.github.io/post/2020-03-zhang-qiudan/</guid>
+      <description> One paper was accepted to TIP: Learning to Explore Saliency for Stereoscopic Videos via Component-Based Interaction. Congratulations to Mr. ZHANG Qiudan!  </description>
     </item>
     
     <item>
-      <title>Third</title>
-      <link>https://Xiaotong713986.github.io/post/third/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Wen Xuanzheng</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-wen-xuanzheng/</link>
+      <pubDate>Sat, 09 Apr 2022 18:08:58 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/third/</guid>
-      <description>The third new</description>
+      <guid>https://Xiaotong713986.github.io/post/2020-03-wen-xuanzheng/</guid>
+      <description> One paper was accepted to ICME2020 (oral): Lossy Geometry Compression of 3D Point Cloud Data via an Adaptive Octree-guided Network. Congratulations to Mr. WEN Xuanzheng!  </description>
+    </item>
+    
+    <item>
+      <title>Sun Zhenhao</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-sun-zhenhao/</link>
+      <pubDate>Sat, 09 Apr 2022 18:08:08 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/2020-03-sun-zhenhao/</guid>
+      <description> One paper was accepted to TCSVT: Multi-Exposure Decomposition-Fusion Model for High Dynamic Range Image Saliency Detection. Congratulations to Mr. SUN Zhenhao!  </description>
+    </item>
+    
+    <item>
+      <title>He Jingming</title>
+      <link>https://Xiaotong713986.github.io/post/2019-09-he-jingming/</link>
+      <pubDate>Sat, 09 Apr 2022 18:06:53 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/2019-09-he-jingming/</guid>
+      <description> One paper was accepted to NeurIPS2019 (poster): Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representation. Congratulations to Mr. HE Jingming!  </description>
     </item>
     
     <item>
@@ -75,118 +93,190 @@
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2015-09-10-qiudan-zhang/</link>
+      <link>https://Xiaotong713986.github.io/person/2015-qiudan-zhang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2015-09-10-qiudan-zhang/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2015-qiudan-zhang/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2016-09-10-xu-wang/</link>
+      <link>https://Xiaotong713986.github.io/person/2016-xiaohua-liu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2016-09-10-xu-wang/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2016-xiaohua-liu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2016-09-10-zhenhao-sun/</link>
+      <link>https://Xiaotong713986.github.io/person/2016-yali-xue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2016-09-10-zhenhao-sun/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2016-yali-xue/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2017-09-10-pingping-zhang/</link>
+      <link>https://Xiaotong713986.github.io/person/2016-zhenhao-sun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2017-09-10-pingping-zhang/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2016-zhenhao-sun/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2017-09-10-zihao-chen/</link>
+      <link>https://Xiaotong713986.github.io/person/2017-pingping-zhang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2017-09-10-zihao-chen/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2017-pingping-zhang/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2018-09-10-zhiye-tang/</link>
+      <link>https://Xiaotong713986.github.io/person/2017-zihao-chen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2018-09-10-zhiye-tang/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2017-zihao-chen/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2019-09-10-jingming-he/</link>
+      <link>https://Xiaotong713986.github.io/person/2018-weifeng-lu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2019-09-10-jingming-he/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2018-weifeng-lu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2019-09-10-jinlong-li/</link>
+      <link>https://Xiaotong713986.github.io/person/2018-xuanzheng-wen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2019-09-10-jinlong-li/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2018-xuanzheng-wen/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2019-09-10-xiaotong-xiao/</link>
+      <link>https://Xiaotong713986.github.io/person/2018-zhiye-tang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2019-09-10-xiaotong-xiao/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2018-zhiye-tang/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2020-09-10-jian-weng/</link>
+      <link>https://Xiaotong713986.github.io/person/2019-jingming-he/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2020-09-10-jian-weng/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2019-jingming-he/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2020-09-10-minghui-chen/</link>
+      <link>https://Xiaotong713986.github.io/person/2019-jinlong-li/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2020-09-10-minghui-chen/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2019-jinlong-li/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2020-09-10-weifeng-kong/</link>
+      <link>https://Xiaotong713986.github.io/person/2019-xiaotong-xiao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2020-09-10-weifeng-kong/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2019-xiaotong-xiao/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://Xiaotong713986.github.io/person/2021-09-10-silin-zheng/</link>
+      <link>https://Xiaotong713986.github.io/person/2020-jian-weng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/person/2021-09-10-silin-zheng/</guid>
+      <guid>https://Xiaotong713986.github.io/person/2020-jian-weng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2020-minghui-chen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2020-minghui-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2020-weifeng-kong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2020-weifeng-kong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-haohong-liao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-haohong-liao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-jiashu-liu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-jiashu-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-jie-zhang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-jie-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-kai-wang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-kai-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-silin-zheng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-silin-zheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Xiaotong713986.github.io/person/2021-yelang-gao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/person/2021-yelang-gao/</guid>
       <description></description>
     </item>
     

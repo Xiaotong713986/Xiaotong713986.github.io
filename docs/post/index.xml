@@ -6,41 +6,59 @@
     <description>Recent content in Posts on FMC-IML-Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Apr 2022 17:45:20 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2022 18:12:35 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Bolg</title>
-      <link>https://Xiaotong713986.github.io/post/my-bolg/</link>
-      <pubDate>Fri, 08 Apr 2022 17:45:20 +0800</pubDate>
+      <title>Weng Jian</title>
+      <link>https://Xiaotong713986.github.io/post/2022-03-weng-jian/</link>
+      <pubDate>Sat, 09 Apr 2022 18:12:35 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/my-bolg/</guid>
-      <description>This is my first blog.</description>
+      <guid>https://Xiaotong713986.github.io/post/2022-03-weng-jian/</guid>
+      <description> One paper was accepted to CVPR2022: ******. Congratulations to Mr. Weng Jian!  </description>
     </item>
     
     <item>
-      <title>First</title>
-      <link>https://Xiaotong713986.github.io/post/first/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Li Jinlong</title>
+      <link>https://Xiaotong713986.github.io/post/2022-02-li-jinlong/</link>
+      <pubDate>Sat, 09 Apr 2022 18:10:43 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/first/</guid>
-      <description>The first new</description>
+      <guid>https://Xiaotong713986.github.io/post/2022-02-li-jinlong/</guid>
+      <description> One paper was accepted to TMM2022: Weakly Supervised Semantic Segmentation via Progressive Patch Learning. Congratulations to Mr. Li Jinlong!  </description>
     </item>
     
     <item>
-      <title>Second</title>
-      <link>https://Xiaotong713986.github.io/post/second/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Zhang Qiudan</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-zhang-qiudan/</link>
+      <pubDate>Sat, 09 Apr 2022 18:09:49 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/second/</guid>
-      <description>The second new</description>
+      <guid>https://Xiaotong713986.github.io/post/2020-03-zhang-qiudan/</guid>
+      <description> One paper was accepted to TIP: Learning to Explore Saliency for Stereoscopic Videos via Component-Based Interaction. Congratulations to Mr. ZHANG Qiudan!  </description>
     </item>
     
     <item>
-      <title>Third</title>
-      <link>https://Xiaotong713986.github.io/post/third/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Wen Xuanzheng</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-wen-xuanzheng/</link>
+      <pubDate>Sat, 09 Apr 2022 18:08:58 +0800</pubDate>
       
-      <guid>https://Xiaotong713986.github.io/post/third/</guid>
-      <description>The third new</description>
+      <guid>https://Xiaotong713986.github.io/post/2020-03-wen-xuanzheng/</guid>
+      <description> One paper was accepted to ICME2020 (oral): Lossy Geometry Compression of 3D Point Cloud Data via an Adaptive Octree-guided Network. Congratulations to Mr. WEN Xuanzheng!  </description>
+    </item>
+    
+    <item>
+      <title>Sun Zhenhao</title>
+      <link>https://Xiaotong713986.github.io/post/2020-03-sun-zhenhao/</link>
+      <pubDate>Sat, 09 Apr 2022 18:08:08 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/2020-03-sun-zhenhao/</guid>
+      <description> One paper was accepted to TCSVT: Multi-Exposure Decomposition-Fusion Model for High Dynamic Range Image Saliency Detection. Congratulations to Mr. SUN Zhenhao!  </description>
+    </item>
+    
+    <item>
+      <title>He Jingming</title>
+      <link>https://Xiaotong713986.github.io/post/2019-09-he-jingming/</link>
+      <pubDate>Sat, 09 Apr 2022 18:06:53 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/post/2019-09-he-jingming/</guid>
+      <description> One paper was accepted to NeurIPS2019 (poster): Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representation. Congratulations to Mr. HE Jingming!  </description>
     </item>
     
   </channel>
