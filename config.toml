@@ -53,3 +53,8 @@ description = "课题组介绍 | 这里是FMC-IML 课题组的介绍。"
 tag = "tags"
 category = "categories"
 archive = "archives"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

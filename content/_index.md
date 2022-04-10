@@ -9,19 +9,16 @@ tags:        ["tag1", "tag2"]
 categories:  ["Tech"]
 archives:    "2020"
 ---
-## About me
-**王旭**，博士，2014年毕业于香港城市大学电脑科学系，2015年加入深圳大学计算机与软件学院，目前担任研究员，未来媒体技术与计算研究所所长助理，硕士生导师（深圳大学新锐研究生导师）。深圳市海外高层次人才“孔雀计划”C类人才，南山区领航人才，深圳大学“荔园优青”。长期从事视频编码压缩、3D视频视觉分析等方面的研究工作。作为项目负责人主持13项科研项目，其中包括国家自然科学基金面上项目1项和青年基金1项，深圳市基础研究重点项目1项。获腾讯“犀牛鸟”深圳大学青年教师科研基金项目奖。已录用和发表SCI国际期刊论文近40篇，人工智能领域顶会NeurIPS论文1篇，计算机视觉领域顶会CVPR论文1篇，Google Scholar论文引用数1400余次，申请国家发明专利9项（授权4项）。
+**Xu Wang(王旭)** obtained his Ph.D. degree in 2014 from the Department of Computer Science at [City University of Hong Kong](https://www.cityu.edu.hk/). He is currently an Associate Professor of [College of Computer Science & Software Engineering](https://csse.szu.edu.cn/)  at [Shenzhen University](https://www.szu.edu.cn/) and Assistant Director of [Research Institute for Future Media Computing](http://futuremedia.szu.edu.cn/), master tutor (shenzhen University advanced graduate tutor), the "Peacock Plan" Class C talent of Shenzhen Overseas High-level Talents , Nanshan District pilot talent, "Liyuan Youqing(荔园优青)" of Shenzhen University .  
 
+He has long been engaged in <u>video coding compression</u>, <u>3D video visual analysis</u> and other research work. As the project leader, he has presided over 13 scientific research projects, including one general project of National Natural Science Foundation of China, one youth fund project, and one key basic research project of Shenzhen City. In addition, he won the Tencent "Rhino Bird" Shenzhen University Young Teachers Scientific Research Fund project award. His accepted and published papers are nearly 40 in SCI international journals, including one NeurIPS paper and one CVPR paper in the field of artificial intelligence and computer vision. He has been cited for more than 1400 times in Google Scholar, and has applied for 9 national invention patents (4 grants). 
 
+**Email:** wangxu@szu.edu.cn
 
+# Introduction of the reasearch group
+Our research group is mainly committed to <u>intelligent analysis and coding of 3D scenes.</u>  The research group emphasizes that students should be taught according to their talents, and the training program should be formulated in combination with students' knowledge background and research direction.  Three postgraduate students have been admitted to the Department of Computer Science of city University of Hong Kong with full scholarships.  Our research group is developing rapidly. <u>We sincerely welcome potential candidates to join us.</u>  
 
-Email：wangxu@szu.edu.cn
-
-<!-- ## Introduction of the reasearch group -->
-## 课题组介绍
-本课题组主要致力于3D场景的智能分析与编码。课题组强调因才施教，培养方案结合学生知识背景和课题组研究方向综合制定。已有3名硕士研究生同学毕业后获全额奖学金，入学香港城市大学电脑科学系，攻读博士学位。本课题组处于快速发展阶段，诚挚欢迎有潜力的你加入。
-
-招生与招聘研究方向：
-1. 3D场景分析与理解：3D点云语义分割、3D视觉显著性分析等
-2. 3D场景感知与编码：图像/视频编码压缩、3D点云数据压缩、自适应内容分发与传输优化等
-3. AI+缺陷视觉检测：与某科创板上市公司合作，开展集成电路领域的表面缺陷检测预研工作
+Research interests in Enrollment and Recruitment:
+- 3D scene analysis and understanding: 3D point cloud semantic segmentation, 3D visual significance analysis, etc  
+- 3D scene perception and coding: image/video coding compression, 3D point cloud data compression, adaptive content distribution and transmission optimization, etc  
+- AI + defect visual detection: Cooperated with a listed company of a science and innovation board to carry out surface defect detection and pre-research in the field of integrated circuits  
