@@ -10,7 +10,7 @@ body {
 }
 ul, p { 
   line-height: 30px;
-  font-size: .8rem;
+  font-size: var(--global-font-size);
   strong {
     font-size: 1rem;
   }

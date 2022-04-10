@@ -42,7 +42,8 @@
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-    align-items: stretch; }
+    align-items: stretch;
+    font-size: 1.2rem; }
     .site-nav .site-menu li + li {
       margin-left: 2rem; }
     .site-nav .site-menu a {
@@ -67,7 +68,7 @@ body {
 
 ul, p {
   line-height: 30px;
-  font-size: .8rem; }
+  font-size: var(--global-font-size); }
   ul strong, p strong {
     font-size: 1rem; }
 
@@ -115,7 +116,7 @@ h1, .title-span-left {
 
 .home-img {
   max-height: calc(70vh);
-  max-width: calc(50vw);
+  max-width: calc(40vw);
   padding: 5px; }
 
 .home-content {
@@ -169,7 +170,8 @@ h1, .title-span-left {
     float: right;
     width: 18%;
     height: 100%;
-    text-align: right; }
+    text-align: right;
+    font-size: var(--global-font-size); }
 
 .post-div:hover {
   box-shadow: 3px 3px 3px 3px #d9d9d9; }
@@ -206,7 +208,8 @@ h1, .title-span-left {
   --color-menu-mobile: hsl(0, 0%, 98%);
   --color-header: hsl(0, 0%, 9%);
   --header-width:  1370px;
-  --content-padding: 20px; }
+  --content-padding: 20px;
+  --global-font-size: .8rem; }
 
 .person-card {
   text-align: center;
