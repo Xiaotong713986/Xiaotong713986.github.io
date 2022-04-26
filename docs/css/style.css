@@ -21,7 +21,7 @@
   .site-header .site-title {
     margin: 0;
     padding: 0;
-    margin-left: 12px; }
+    margin-left: 0; }
     .site-header .site-title a {
       color: var(--color-header);
       display: block;
@@ -207,7 +207,7 @@ h1, .title-span-left {
   --bg-menu-mobile: hsl(0, 0%, 7%);
   --color-menu-mobile: hsl(0, 0%, 98%);
   --color-header: hsl(0, 0%, 9%);
-  --header-width:  1370px;
+  --header-width:  calc(100vw - 100px);
   --content-padding: 20px;
   --global-font-size: .8rem; }
 
