@@ -28,13 +28,8 @@ Teacher = "teacher"
 
 [[menu.main]]
     name = "Publications"
-    url = "/publications/"
+    url = "/pub/"
     weight = 3
-
-[[menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 4
 
 # [outputs]
 # home = ["HTML", "RSS"]

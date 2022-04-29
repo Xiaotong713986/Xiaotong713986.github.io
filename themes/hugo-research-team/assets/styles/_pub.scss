@@ -1,0 +1,42 @@
+.pub-div {
+    padding:10px;
+    position: relative;
+    margin-top:5px;
+    border-bottom: dashed 1px black;
+    display: flex;
+    a {
+        color: black;
+        font-weight: 900;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    span {
+        color: var(--font-color)
+    }
+    .pub-descrp {
+        float: left;
+        width: 88%;
+        height: 100%;
+    
+        a {
+            color: var(--accent-color)
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+    
+    .pub-img {
+        float: left;
+        width: 10%;
+        max-height: 100%;
+        align-self: center;
+        margin-right: 2%;
+    } 
+}
+.pub-div:hover {
+    box-shadow: 3px 3px 3px 3px #d9d9d9;
+}

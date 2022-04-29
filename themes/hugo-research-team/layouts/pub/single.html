@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div class="card" id="content">
+            <div class="post-container">
+                <div class="post-content">
+                    <div class="title-div">
+                        <span class="title-span no-border">{{ .Title }}</span>
+                        <span class="sub-title-span ">{{ .Date | time.Format ":date_full" }}</span>
+                        <span class="sub-title-span ">[
+                            <a href="/pub">Back to list </a>| 
+                            {{if eq .Params.PDFLink "" }} PDF {{else}} <a href="{{.Params.PDFLink}}">PDF</a> {{end}}| 
+                            {{if eq .Params.CodeLink "" }} code {{else}} <a href="{{.Params.CodeLink}}">code</a> {{end}}]
+                        </span>
+                    </div>
+                    
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pubs on FMC-IML-Lab</title>
+    <link>https://Xiaotong713986.github.io/pub/</link>
+    <description>Recent content in Pubs on FMC-IML-Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Apr 2022 14:31:51 +0800</lastBuildDate><atom:link href="https://Xiaotong713986.github.io/pub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representations</title>
+      <link>https://Xiaotong713986.github.io/pub/firstb/</link>
+      <pubDate>Fri, 29 Apr 2022 14:31:51 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/pub/firstb/</guid>
+      <description>Abstrat In this paper, we propose one novel model for point cloud semantic segmentation, which exploits both the local and global structures within the point cloud based on the contextual point representations. Specifically, we enrich each point representation by performing one novel gated fusion on the point itself and its contextual points. Afterwards, based on the enriched representation, we propose one novel graph pointnet module, relying on the graph attention block to dynamically compose and update each point representation within the local point cloud structure.</description>
+    </item>
+    
+    <item>
+      <title>Learning to Explore Intrinsic Saliency for Stereoscopic Video</title>
+      <link>https://Xiaotong713986.github.io/pub/firsta/</link>
+      <pubDate>Fri, 29 Apr 2022 13:52:43 +0800</pubDate>
+      
+      <guid>https://Xiaotong713986.github.io/pub/firsta/</guid>
+      <description>Abstrat In this paper, we devise a saliency prediction model for stereoscopic videos that learns to explore saliency inspired by the component-based interactions including spatial, temporal, as well as depth cues. The model first takes advantage of specific structure of 3D residual network (3D-ResNet) to model the saliency driven by spatio-temporal coherence from consecutive frames. Subsequently, the saliency inferred by implicit-depth is automatically derived based on the displacement correlation between left and right views by leveraging a deep convolutional network (ConvNet).</description>
+    </item>
+    
+  </channel>
+</rss>
