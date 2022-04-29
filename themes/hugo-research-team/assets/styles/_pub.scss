@@ -31,7 +31,8 @@
     
     .pub-img {
         float: left;
-        width: 10%;
+        min-width: 200px;
+        max-width: 10%;
         max-height: 100%;
         align-self: center;
         margin-right: 2%;
