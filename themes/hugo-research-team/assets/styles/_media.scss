@@ -119,12 +119,13 @@
         width:calc(85vw);
     }
     .pub-div {
+        width:calc(83vw) !important;
         display: block !important;
         .pub-descrp {
-            width:calc(83vw)  !important; 
+            width:99% !important; 
         }
         .pub-img-div {
-            width:calc(83vw)  !important;
+            width:99% !important;
         }
     }
     
@@ -137,7 +138,6 @@
         .inner {
             display: block;
         }
-
         .site-title {
             a {
                 display: inline-block;
@@ -187,7 +187,6 @@
         .site-menu {
             width: 100%;
             flex-direction: column;
-
             a {
                 color: var(--color-header);
             }
