@@ -408,13 +408,13 @@ h1, .title-span-left {
     color: var(--font-color); }
   .post-div .news-descrp {
     float: left;
-    width: 80%;
+    width: 93%;
     height: 100%; }
     .post-div .news-descrp a {
       color: var(--active-font-color); }
   .post-div .news-date {
     float: right;
-    width: 18%;
+    width: 7%;
     height: 100%;
     text-align: right;
     font-size: var(--global-font-size); }
