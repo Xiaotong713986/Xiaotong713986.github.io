@@ -17,7 +17,7 @@
     }
     .pub-descrp {
         float: left;
-        width: 88%;
+        width: 68%;
         height: 100%;
     
         a {
@@ -29,12 +29,15 @@
         }
     }
     
-    .pub-img {
+    .pub-img-div {
         float: left;
-        width: 10%;
+        width: 30%;
         max-height: 100%;
         align-self: center;
         margin-right: 2%;
+        .pub-img {
+            width: 100%;
+        }
     } 
 }
 .pub-div:hover {

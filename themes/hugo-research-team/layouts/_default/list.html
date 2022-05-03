@@ -7,8 +7,10 @@
             {{ range .Site.Pages.ByDate.Reverse }}
                 {{ if and (eq .Type "pub") (ne .Title "Pubs") }}
                 <div class="pub-div">
-                    <label for=""></label>
-                    <img class="pub-img" src="{{.Params.Pic}}" alt="">
+                    <!-- <label for=""></label> -->
+                    <div class="pub-img-div">
+                        <img class="pub-img" src="{{.Params.Pic}}" alt="">
+                    </div>
                     <div class="pub-descrp">
                         {{.Params.author}}, "<a href="{{ .Permalink }}">{{.Title}}</a>", 
                         {{.Params.PublishName}}, {{.Params.paperDate}}.
