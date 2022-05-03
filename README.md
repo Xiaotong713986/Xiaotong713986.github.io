@@ -1,5 +1,5 @@
 # 配置
-- 安装hugo:
+- 安装hugo:进入[hugo的github仓库](https://github.com/gohugoio/hugo/releases)，选择安装 <strong>hugo_extended_0.98.0_Windows-64bit.zip</strong>
 
 # 修改网站内容
 本文档将介绍如何通过增删改Markdown文件，改变网站内容。
