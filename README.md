@@ -1,3 +1,6 @@
+# 配置
+- 安装hugo:
+
 # 修改网站内容
 本文档将介绍如何通过增删改Markdown文件，改变网站内容。
 ## 修改Home内容
@@ -35,3 +38,6 @@
 > hugo
 
 以生成新的网页内容
+
+# Hugo的使用
+[hugo 文档](https://gohugo.io/getting-started/quick-start/)
