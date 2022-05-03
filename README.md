@@ -26,7 +26,7 @@
 新增publications命令：
 >hugo new pub/firstA.md
 
-该markdown文件中的Pic为摘要图片，要指定
-并在路径/static/firstA/下新增相关图片
+该markdown文件中的Pic为摘要图片，需要指定
+在路径/static/firstA/下新增这篇publication的所有图片，并在markdown文件中引入
 
 
