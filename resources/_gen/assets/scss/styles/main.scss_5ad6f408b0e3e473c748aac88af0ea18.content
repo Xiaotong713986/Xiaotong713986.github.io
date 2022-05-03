@@ -285,7 +285,8 @@ h1, .title-span-left {
     .pub-div .pub-descrp {
       width: 99% !important; }
     .pub-div .pub-img-div {
-      width: 99% !important; }
+      width: 99% !important;
+      margin-bottom: 8px; }
   .hide-mobile {
     display: none; }
   .site-header .inner {
