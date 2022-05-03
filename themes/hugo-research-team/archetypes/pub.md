@@ -9,5 +9,5 @@ PDFLink: ""
 CodeLink: ""
 Tags: []
 Categories: []
-Pic: "/pub/{{.Name}}.jpg"
+Pic: "/pub-example.jpg"
 ---
