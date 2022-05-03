@@ -17,7 +17,7 @@ ul, p {
 } 
 a,
 a:visited {
-  color: var(--accent-color);
+  color: var(--active-font-color);
   text-decoration: none;
   -webkit-text-decoration-skip: ink;
   text-decoration-skip-ink: auto;
@@ -34,7 +34,7 @@ a:focus {
   text-align: center;
   font-weight: 900;
   font-size: 2rem;
-  border-bottom: 1px solid var(--header-bg-color);
+  border-bottom: 1px solid var(--background-color);
   margin-top: 10px;
   padding: 5px;
 }
@@ -42,10 +42,10 @@ h1, .title-span-left {
   display:inline-block;
   width:100%;
   text-align: left;
-  color:var(--accent-color);
+  color:var(--title-font-color);
   font-weight: 900;
   font-size: 1.5rem;
-  border-bottom: 2px solid var(--header-bg-color);
+  border-bottom: 2px solid var(--title-font-color);
   margin-top: 10px;
   padding: 5px;
 }

@@ -115,6 +115,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    #content {
+        width:85vw;
+    }
+    
     .hide-mobile {
         display: none;
     }
@@ -175,7 +179,7 @@
             flex-direction: column;
 
             a {
-                color: var(--color-menu-mobile);
+                color: var(--color-header);
             }
         }
 
@@ -189,16 +193,6 @@
     .theme__btn {
         margin: 0;
     }
-
-    // .subheader {
-    //     background-attachment: unset;
-
-    //     .post-title,
-    //     .post-date {
-    //         text-align: center;
-    //         width: auto;
-    //     }
-    // }
 
     .welcome-btn-container {
         text-align: center;
@@ -218,8 +212,8 @@
         display: none;
     }
 
-    .copyright:after {
-        margin: 0 calc(var(--gap) / 2);
-        content: "•";
-    }
+    // .copyright:after {
+    //     margin: 0 calc(var(--gap) / 2);
+    //     content: "•";
+    // }
 }

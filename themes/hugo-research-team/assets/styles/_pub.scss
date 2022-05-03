@@ -21,7 +21,7 @@
         height: 100%;
     
         a {
-            color: var(--accent-color)
+            color: var(--active-font-color)
         }
 
         p {
@@ -38,5 +38,5 @@
     } 
 }
 .pub-div:hover {
-    box-shadow: 3px 3px 3px 3px #d9d9d9;
+    box-shadow: 3px 3px 3px 3px var(--active-box-shadow);
 }

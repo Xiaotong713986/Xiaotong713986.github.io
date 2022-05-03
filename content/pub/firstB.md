@@ -9,7 +9,7 @@ PDFLink: "https://click.endnote.com/viewer?doi=10.48550%2Farxiv.1911.05277&token
 CodeLink: ""
 Tags: []
 Categories: []
-Pic: "/pub/firstB.jpg"
+Pic: "/firstB/overview.jpg"
 ---
 # Abstrat
 In this paper, we propose one novel model for point cloud semantic segmentation, which exploits both the local and global structures within the point cloud based on the contextual point representations. Specifically, we enrich each point representation by performing one novel gated fusion on the point itself and its contextual points. Afterwards, based on the enriched representation, we propose one novel graph pointnet module, relying on the graph attention block to dynamically compose and update each point representation within the local point cloud structure. Finally, we resort to the spatial-wise and channel-wise attention strategies to exploit the point cloud global structure and thereby yield the resulting semantic label for each point. Extensive results on the public point cloud databases, namely the S3DIS and ScanNet datasets, demonstrate the effectiveness of our proposed model, outperforming the state-of-the-art approaches.

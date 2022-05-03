@@ -6,11 +6,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
-    background-color: transparent;
+    color: var(--color-header);
+    background-color: var(--header-bgcolor);
     text-align: center;
-    padding: 3px;
+    padding: 10px;
 }
+
 .copyright {
     margin: 0;
   }

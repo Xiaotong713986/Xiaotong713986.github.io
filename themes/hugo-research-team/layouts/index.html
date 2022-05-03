@@ -1,19 +1,12 @@
 {{ define "main" }}
-    <!-- <div class="home-img">
-        <img src="{{ .Site.Params.avatar }}" alt="">
-    </div>
-    <div class="home-content">
-        {{ .Content }}
-    </div> -->
     <img src="{{ .Site.Params.avatar }}" alt="" align="left" class="home-img">
-    <p class="home-content">{{ .Content }}</p>
+    <div class="home-content">{{ .Content }}</div>
     <span class="title-span-left">Recent News</span>
     {{ range .Site.Pages.ByDate.Reverse }}
         {{ if and (eq .Type "post") (ne .Title "Posts") }}
             <div class="post-div">
                 <label for=""></label>
                 <div class="news-descrp">
-                    <!-- <p><a href="{{ .Permalink }}">{{.Title}}</a></p> -->
                     {{ .Content }}
                 </div>
                 <div class="news-date">
