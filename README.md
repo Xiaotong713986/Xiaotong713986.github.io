@@ -30,4 +30,8 @@
 
 在路径/static/firstA/下新增这篇publication的所有图片，并在markdown文件中引入
 
+## 更新操作
+进行内容更新之后，执行：
+> hugo
 
+以生成新的网页内容
