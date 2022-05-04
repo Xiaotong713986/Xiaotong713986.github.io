@@ -161,9 +161,9 @@ h1, .title-span-left {
   margin: 0; }
 
 :root {
-  --background-color: #a9a9a9;
+  --background-color: white;
   --person-card-color: #efefef;
-  --content-bgColor: #a9a9a9;
+  --content-bgColor: white;
   --active-font-color: #74132c;
   --header-active-font-color: #e64f80;
   --header-bgcolor:#232637;
