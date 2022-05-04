@@ -12,14 +12,13 @@
     background-color: var(--header-bgcolor);
     color: var(--color-header);
     padding: calc(var(--gap) / 2) var(--gap);
-
     .inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
         gap: var(--gap);
-        max-width: var(--header-width);
+        width: var(--header-width);
     }
 
     .site-title {
