@@ -115,7 +115,7 @@ h1, .title-span-left {
   margin: auto; }
 
 .home-img {
-  max-height: calc(70vh);
+  max-height: calc(40vh);
   max-width: calc(40vw);
   padding: 5px; }
 
