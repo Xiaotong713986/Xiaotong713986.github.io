@@ -419,6 +419,9 @@ h1, .title-span-left {
     text-align: right;
     font-size: var(--global-font-size); }
 
+.post-div-ch {
+  padding: 20px; }
+
 .post-div:hover {
   box-shadow: 3px 3px 3px 3px var(--active-box-shadow); }
 

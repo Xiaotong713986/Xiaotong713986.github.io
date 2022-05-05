@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header-ch.html" . -}}
+        <div class="card" id="content">
+            <img src="{{ .Site.Params.avatar }}" alt="" align="left" class="home-img">
+            <div class="home-content">{{ .Content }}</div>
+            <span class="title-span-left">Recent News</span>
+            {{ range .Site.Pages.ByDate.Reverse }}
+            {{ if and (eq .Type "post") (ne .Title "Posts") }}
+            <div class="post-div post-div-ch">
+                <label for=""></label>
+                <div class="news-descrp">
+                    <!-- {{ .Content }} -->
+                    {{with .Params.chContent}}
+                        {{.}}
+                    {{end}}
+                </div>
+                <div class="news-date">
+                    {{.Params.Newdate }}
+                </div>
+                <div class="clear-float"></div>
+            </div>
+            {{ end }}
+            {{end}}
+            <div class="clear-float"></div>
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+        
+</html>

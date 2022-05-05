@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header-ch.html" . -}}
+        <div class="card" id="content">
+            <div class="clear-float"></div>
+            <span class="title-span-left no-border">硕士研究生</span>
+            {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "master"}}
+            {{ partial "person-ch.html" .Params}}
+            {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <span class="title-span-left no-border">本科生</span>
+            {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "undergraduate"}}
+            {{ partial "person-ch.html" .Params}}
+            {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            <span class="title-span-left no-border">毕业生</span>
+            {{ range .Site.RegularPages }}
+            {{if eq .Params.StudentType "alumni"}}
+            {{ partial "person-ch.html" .Params}}
+            {{end}}
+            {{ end }}
+            <div class="clear-float"></div>
+            </div>
+            {{- partial "footer.html" . -}}
+    </body>
+        
+</html>
