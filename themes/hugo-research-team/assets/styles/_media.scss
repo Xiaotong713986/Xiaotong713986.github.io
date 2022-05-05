@@ -6,7 +6,7 @@
         --duration: 0.5s;
         --timing: ease;
         transition: color var(--duration) var(--timing),
-            background-color var(--duration) var(--timing);
+            background-color var(--duration) var(--timing); 
     }
 
     a:hover,
@@ -138,6 +138,7 @@
     .site-header {
         .inner {
             display: block;
+            width: calc(98vw);
         }
         .site-title {
             a {

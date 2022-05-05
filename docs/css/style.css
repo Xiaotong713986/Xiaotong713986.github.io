@@ -290,7 +290,8 @@ h1, .title-span-left {
   .hide-mobile {
     display: none; }
   .site-header .inner {
-    display: block; }
+    display: block;
+    width: calc(98vw); }
   .site-header .site-title a {
     display: inline-block; }
   .site-nav {
