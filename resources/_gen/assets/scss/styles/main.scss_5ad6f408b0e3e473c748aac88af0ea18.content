@@ -162,7 +162,6 @@ h1, .title-span-left {
 
 :root {
   --background-color: white;
-  --person-card-color: #efefef;
   --content-bgColor: white;
   --active-font-color: #74132c;
   --header-active-font-color: #e64f80;
@@ -172,7 +171,7 @@ h1, .title-span-left {
   --font-color: #757575;
   --title-font-color:#353535;
   --active-box-shadow:#353535;
-  --content-min-height: calc(82vh - 30px);
+  --content-min-height: calc(87vh - 30px);
   --content-width: calc(1000px);
   --gap: 0.5rem;
   --radius: .5em;
@@ -345,6 +344,70 @@ h1, .title-span-left {
 @media screen and (min-width: 1100px) {
   .hide-desktop {
     display: none; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* IE10+ specific styles go here */
+  body {
+    background-color: white; }
+  ul,
+  p {
+    font-size: 0.8rem; }
+  a,
+  a:visited {
+    color: #74132c; }
+  #content {
+    width: calc(1000px);
+    background-color: white;
+    min-height: calc(87vh - 30px);
+    padding: 20px; }
+  .nav-btn {
+    background-color: white; }
+  .site-header {
+    background-color: #232637;
+    color: #ffffff;
+    padding: calc($gap / 2) 0.5rem; }
+    .site-header .inner {
+      width: calc(1000px);
+      gap: 0.5rem; }
+    .site-header .site-title a {
+      color: #ffffff; }
+    .site-header .site-title a:hover {
+      color: #e64f80; }
+  .site-nav .site-menu a {
+    color: #ffffff; }
+  .site-nav .site-menu .active a {
+    color: #e64f80 !important; }
+  .site-nav .site-menu a:hover {
+    color: #e64f80; }
+  .site-footer {
+    color: #ffffff;
+    background-color: #232637; }
+  .post-div {
+    border-bottom: dashed 1px #353535; }
+    .post-div .news-descrp a {
+      color: #74132c; }
+    .post-div .news-date {
+      font-size: 0.8rem; }
+    .post-div span {
+      color: #757575; }
+  .post-div:hover {
+    box-shadow: 3px 3px 3px 3px #353535; }
+  .pub-div .pub-descrp a {
+    color: #74132c; }
+  .pub-div span {
+    color: #757575; }
+  .pub-div:hover {
+    box-shadow: 3px 3px 3px 3px #353535; }
+  .sub-title-span {
+    color: #757575; }
+  h1,
+  .title-span-left {
+    color: #353535;
+    border-bottom: 2px solid #353535; }
+  .title-span {
+    border-bottom: 1px solid white; }
+  .person-card:hover {
+    box-shadow: 3px 3px 3px 3px #353535; } }
 
 .pub-div {
   padding: 10px;
