@@ -13,7 +13,7 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.ch }}
                 {{ $menu_item_url := .URL | relLangURL }}
-                {{ $page_url:= $currentPage.RelPermalink | relLangURL }}
+                {{ $page_url:= $currentPage.RelPermalink | relLangURL }} 
                 <li {{if eq $menu_item_url $page_url}}class="active" {{end}}>
                     <a href="{{.URL}}" {{if eq $menu_item_url $page_url}} aria-current="page" {{end}}>
                         <span>{{.Name}}</span>
